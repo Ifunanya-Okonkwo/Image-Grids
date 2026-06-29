@@ -1,0 +1,105 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    background-color: blue;
+}
+.grid-container{ 
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(255, 9%, 74%);
+    display: grid;
+    grid-auto-columns: 200px;
+    grid-auto-rows: 100px;
+    gap: 1em;
+    grid-template-areas: 
+    "box-1 box-2 box-2 box-3"
+    "box-1 box-2 box-2 box-3"
+    "box-1 box-4 box-5 box-3"
+    "box-6 box-4 box-5 box-3"
+    "box-6 box-7 box-8 box-8"
+    "box-6 box-7 box-8 box-8";
+}
+.box-1{
+    padding: 20px;
+    background-color: hsl(31, 66%, 93%);
+}
+.span1{
+    font-style: italic;
+    color: hsl(256, 67%, 59%);
+}
+.box-2{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+.img2{
+    width: 100px;
+}
+.h2{
+    font-size: 35px;
+}
+.span2-1{
+    color: hsl(39, 100%, 71%);
+}
+.span2-2{
+    font-style: italic;
+}
+.box-3{
+    background-color: hsl(254, 88%, 90%);
+    padding: 20px;
+    overflow: hidden;
+}
+.img3{
+    height: 220px;
+    width: 300px;
+}
+.box-4{
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+    padding: 15px;
+}
+.img4{
+    width: 250px;
+    transform: translateX(15px);
+}
+.box-5{
+    background-color: hsl(39, 100%, 71%);
+    padding: 15px;
+    overflow: hidden;
+}
+.img5{
+    width: 170px;
+    transform: translateY(-15px);
+}
+.box-6{
+    background-color: hsl(39, 100%, 71%);
+    padding: 20px;
+}
+.img6{
+    width: 170px;
+    height:180px;
+}
+.img7{
+    width: 150px;
+    padding-top: 20px;
+}
+.box-7{
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+.img8{
+    width: 200px;
+}
+.box-8{
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    padding: 20px;
+}
+.box-8-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
